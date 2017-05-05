@@ -1,0 +1,33 @@
+<resources>
+    //Title of app
+    <string name="app_name">White Noise</string>
+
+    //Category name for the vocabulary words for Info [CHAR LIMIT=20]
+    <string name="category_info">Info</string>
+
+    //Category name for Sea [CHAR LIMIT=20]
+    <string name="category_sea">Sea</string>
+
+    //Category name for the vocabulary words for Wing [CHAR LIMIT=20]
+    <string name="category_wind">Wind</string>
+
+    //Category name for the vocabulary words for Fan [CHAR LIMIT=20]
+    <string name="category_fan">Fan</string>
+
+    //Category name for the vocabulary words for Air [CHAR LIMIT=20]
+    <string name="category_air">Air</string>
+
+    //Category name for the vocabulary words for Info [CHAR LIMIT=20]
+    <string name="category_buy">Buy</string>
+
+
+
+    <string name="infoPlay">Created on analog synthesizers, this app is designed to play relaxing drones of differing white noise; </string>
+    <string name="airPlay">Created on analog synthesizers, these noises will remind the listener of the droning engines of aeroplanes. </string>
+    <string name="fanPlay">Created on analog synthesizers, these noises recreate the mechanical murmur of electric fans. </string>
+    <string name="windPlay">Created on analog synthesizers, these noises bring to mind of the sounds of stormy weather. </string>
+    <string name="seaPlay">Created on analog synthesizers, these noises remind the listener of the chaotic sounds of the sea. </string>
+    <string name="buyPlay">Expand the amount of sounds available to you by buying the full experience; </string>
+
+</resources>
+

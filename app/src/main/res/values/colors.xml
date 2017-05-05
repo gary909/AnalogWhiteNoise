@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    //Background color for app
+    <color name="black">#000000</color>
+
+    //Background color for the sea category
+    <color name="category_sea">#000000</color>
+
+    //Background color for the wind category
+    <color name="category_wind">#000000</color>
+
+    //Background color for the fan category
+    <color name="category_fan">#000000</color>
+
+    //Background color for the air category
+    <color name="category_air">#000000</color>
+</resources>

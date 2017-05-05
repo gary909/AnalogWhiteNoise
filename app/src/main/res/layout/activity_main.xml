@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.example.android.analogwhitenoise.MainActivity">
+
+    <LinearLayout
+        style="@style/mainLinearLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whitenoiseicon"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+        //INFO LAYOUT
+        <LinearLayout
+            style="@style/menuLinearLayout">
+            <TextView
+                android:id="@+id/info"
+                style="@style/CategoryStyle"
+                android:text="@string/category_info"
+                android:layout_weight="3"/>
+
+            <ImageView
+                style="@style/menuImage"
+                android:background="@drawable/infosml" />
+        </LinearLayout>
+
+
+
+        //SEA LAYOUT
+        <LinearLayout
+            style="@style/menuLinearLayout">
+            <TextView
+                android:id="@+id/sea"
+                style="@style/CategoryStyle"
+                android:text="@string/category_sea"
+                android:layout_weight="3"/>
+
+            <ImageView
+                style="@style/menuImage"
+                android:background="@drawable/seaiconsml" />
+        </LinearLayout>
+
+
+
+        //WIND LAYOUT
+        <LinearLayout
+            style="@style/menuLinearLayout">
+
+            <TextView
+                android:id="@+id/wind"
+                style="@style/CategoryStyle"
+                android:text="@string/category_wind"
+                android:layout_weight="3"/>
+
+            <ImageView
+                style="@style/menuImage"
+                android:background="@drawable/windiconsml"/>
+
+        </LinearLayout>
+
+
+
+        //FAN LAYOUT
+        <LinearLayout
+            style="@style/menuLinearLayout">
+
+            <TextView
+                android:id="@+id/fan"
+                style="@style/CategoryStyle"
+                android:text="@string/category_fan"
+                android:layout_weight="3"/>
+
+            <ImageView
+                style="@style/menuImage"
+                android:background="@drawable/faniconsml"
+                />
+
+        </LinearLayout>
+
+
+
+        //AIR LAYOUT
+        <LinearLayout
+            style="@style/menuLinearLayout">
+
+            <TextView
+                android:id="@+id/air"
+                style="@style/CategoryStyle"
+                android:text="@string/category_air"
+                android:layout_weight="3"/>
+
+            <ImageView
+                style="@style/menuImage"
+                android:background="@drawable/airiconsml"/>
+
+        </LinearLayout>
+
+
+
+        //BUY LAYOUT
+        <LinearLayout
+            style="@style/menuLinearLayout">
+            <TextView
+                android:id="@+id/buy"
+                style="@style/CategoryStyle"
+                android:text="@string/category_buy"
+                android:layout_weight="3"/>
+
+            <ImageView
+                style="@style/menuImage"
+                android:background="@drawable/buysml" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
