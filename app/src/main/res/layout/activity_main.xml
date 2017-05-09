@@ -17,9 +17,7 @@
             android:background="@drawable/whitenoiseicon"
             android:layout_gravity="center_horizontal"/>
 
-
-
-        //INFO LAYOUT
+        <!-- INFO LAYOUT -->
         <LinearLayout
             style="@style/menuLinearLayout">
             <TextView
@@ -33,9 +31,7 @@
                 android:background="@drawable/infosml" />
         </LinearLayout>
 
-
-
-        //SEA LAYOUT
+        <!-- SEA LAYOUT -->
         <LinearLayout
             style="@style/menuLinearLayout">
             <TextView
@@ -49,9 +45,7 @@
                 android:background="@drawable/seaiconsml" />
         </LinearLayout>
 
-
-
-        //WIND LAYOUT
+        <!-- WIND LAYOUT -->
         <LinearLayout
             style="@style/menuLinearLayout">
 
@@ -64,12 +58,9 @@
             <ImageView
                 style="@style/menuImage"
                 android:background="@drawable/windiconsml"/>
-
         </LinearLayout>
 
-
-
-        //FAN LAYOUT
+        <!-- FAN LAYOUT -->
         <LinearLayout
             style="@style/menuLinearLayout">
 
@@ -83,12 +74,9 @@
                 style="@style/menuImage"
                 android:background="@drawable/faniconsml"
                 />
-
         </LinearLayout>
 
-
-
-        //AIR LAYOUT
+        <!-- AIR LAYOUT -->
         <LinearLayout
             style="@style/menuLinearLayout">
 
@@ -101,12 +89,9 @@
             <ImageView
                 style="@style/menuImage"
                 android:background="@drawable/airiconsml"/>
-
         </LinearLayout>
 
-
-
-        //BUY LAYOUT
+        <!-- BUY LAYOUT -->
         <LinearLayout
             style="@style/menuLinearLayout">
             <TextView
@@ -119,7 +104,5 @@
                 style="@style/menuImage"
                 android:background="@drawable/buysml" />
         </LinearLayout>
-
     </LinearLayout>
-
 </ScrollView>

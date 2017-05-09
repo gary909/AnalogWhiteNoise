@@ -25,7 +25,5 @@ public class buyActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
 }

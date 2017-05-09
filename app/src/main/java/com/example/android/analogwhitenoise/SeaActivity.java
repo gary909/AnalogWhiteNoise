@@ -10,7 +10,7 @@ public class SeaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sea);
-
+        //Play Sound
         MediaPlayer oldiesMusic = MediaPlayer.create(this, R.raw.noisesea);
 
         oldiesMusic.start();

@@ -10,7 +10,7 @@ public class WindActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wind);
-
+        //Play Sound
         MediaPlayer oldiesMusic = MediaPlayer.create(this, R.raw.noisewind);
 
         oldiesMusic.start();

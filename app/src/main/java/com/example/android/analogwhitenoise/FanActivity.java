@@ -10,7 +10,7 @@ public class FanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fan);
-
+        //Play Sound
         MediaPlayer oldiesMusic = MediaPlayer.create(this, R.raw.noisefan);
 
         oldiesMusic.start();

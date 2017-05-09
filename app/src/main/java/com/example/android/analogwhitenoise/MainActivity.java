@@ -1,12 +1,10 @@
 package com.example.android.analogwhitenoise;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
 
         //INFO HERE
         // Find the View that shows the info category
@@ -35,11 +30,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
-
         //SEA HERE
         // Find the View that shows the sea category
         TextView sea = (TextView) findViewById(R.id.sea);
@@ -56,11 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(seaIntent);
             }
         });
-
-
-
-
-
 
         //WIND HERE
         // Find the View that shows the wind category
@@ -79,11 +64,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
-
         //FAN HERE
         // Find the View that shows the wind category
         TextView fan = (TextView) findViewById(R.id.fan);
@@ -100,11 +80,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(fanIntent);
             }
         });
-
-
-
-
-
 
         //AIR HERE
         // Find the View that shows the wind category
@@ -123,11 +98,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
-
         //BUY HERE
         // Find the View that shows the wind category
         TextView buy = (TextView) findViewById(R.id.buy);
@@ -144,8 +114,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(buyIntent);
             }
         });
-
-
-
     }
 }
